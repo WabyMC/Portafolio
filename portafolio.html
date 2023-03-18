@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/style.css">
     <title>Portafolio</title>
 </head>
 <body>
@@ -14,8 +15,8 @@
                 <ul>
                     <li><a href="#mainheader">Inicio</a></li>
                     <li><a href="#portafolio">Portafolio</a></li>
-                    <li><a href="#acerca de"></a>Acerca de</li>
-                    <li><a href="#contacto"></a>Contacto</li>
+                    <li><a href="#acercade">Acerca de</a></li>
+                    <li><a href="#contacto">Contacto</a></li>
                 </ul>
             </div>
         </nav>
@@ -24,9 +25,109 @@
                     <div class="show-row-title">
                         <p></p>
                         <h1 class="display 1"></h1>
-
-
+                        <p class="large">
+                            Bienvenidos a mi portafolio.                            
+                        </p>
                     </div>
-    
+                    <div class="foto">
+                        <img src="./src/FOTOGM.jpg" alt="foto" width="400px" height="500px"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <section id="portafolio">
+        <div class="container">
+            <h1>Portafolio</h1>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequuntur,
+                cumque numquam. Nisi ab ratione dolore!
+            </p>
+            <div class="portfolio-row">
+                <a href=""><video src="./src/GITHUB.mp4" autoplay width="200px" height="200px"></a>
+                <a href=""><video src="./src/CSS.mp4" autoplay width="200px" height="200px"></a>
+                <a href=""><video src="./src/HTML.mp4" autoplay width="200px" height="200px"></a>
+                <a href=""><video src="./src/JS.mp4" autoplay width="200px" height="200px"></a>
+            </div>           
+        </div>
+    </section>
+
+    <section id="acercade">
+        <div class="container">
+            <h2>A cerca de mí</h2>
+            <p>
+                Labore como auxiliar contable por 4 años, obteniendo experiencia en temas 
+                contables, fiscales, además de que aprendí a ser más analítica y siempre 
+                enfocado al logro de los objetivos. Actualmente busco desarrollarme dentro 
+                del área de programación.  
+            </p>
+            <p>
+                Actualmente busco desempeñarme dentro del área de Tecnologías de la Información, 
+                es por ello que sigo actualizandome sobre los diversos lenguajes de programación, 
+                para poder crear  contenido dinámico para las páginas web, empleando 
+                nuevas habilidades, así como con las que cuento y para seguir adquiriendo nuevas 
+                experiencias y conocimiento. 
+                
+            </p>
+            <p> (texto sin definir)
+            </p>
+        </div>
+    </section>
+
+    <section id="contacto">
+        <div class="container">
+            <h3>Contacto</h3>
+            <p>
+                Si desea ponerse en contacto, por favor, llene los siguientes campos.
+            </p>
+            <div class="container">
+                <div>
+                    <img src="./src/CONTACTO.png" alt="imgcontact" width="700px" height="400px"/>
+                </div>
+                <div class="contact-row-form">
+                    <h4>Envía tu mensaje</h4>
+                    <form action="">
+                        <div class="form-group">
+                            <label for="name">Nombre</label>
+                            <input type="text" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email</label>
+                            <input type="email" class="form-control" />
+                        </div>
+                        <div class="form-group">
+                            <label for="message">Mensaje</label>
+                            <textarea
+                                name="message"
+                                id=""
+                                cols="30"
+                                rows="10"
+                                class="form-control"
+                            ></textarea>
+                        </div>
+                        <button class="btn btn-dark">Enviar mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="mainfooter">
+        <div class="container">
+            <a
+                href="https://www.flaticon.com/free-icons/linkedin"
+                class="linkedIn-follow-button"
+                data-show-count="false"
+                >Follow @Gabriela Muñoz</a
+            >
+            <script
+                async
+                src=""
+                charset="utf-8"
+            ></script>
+        </div>
+    </footer>
 </body>
 </html>
+
